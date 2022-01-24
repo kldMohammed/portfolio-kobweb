@@ -1,0 +1,13 @@
+site:
+  title: "kobweb tutorial"
+
+server:
+  files:
+    dev:
+      contentRoot: "build/processedResources/js/main/public"
+      script: "build/js/packages/site/kotlin/site.js"
+      api: "build/libs/site.jar"
+    prod:
+      siteRoot: ".kobweb/site"
+
+  port: 8080
