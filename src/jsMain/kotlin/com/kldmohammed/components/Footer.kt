@@ -25,7 +25,7 @@ private fun OSSLabel() {
     Row(Modifier.margin(bottom = 32.px)) {
         FaGithub(Modifier.margin(right = 8.px))
         Text ("This site is ")
-        SilkLink ("https://github.com/varabyte/kobweb-site", "open source")
+        SilkLink ("https://github.com/kldMohammed/portfolio-kobweb", "open source")
     }
 }
 
